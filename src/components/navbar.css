@@ -1,0 +1,48 @@
+header{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+  
+}
+
+
+h1{
+    color:blue;
+}
+
+header .logo {
+    
+    text-transform: capitalize;
+    
+}
+
+header nav{
+    display:flex;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #555;
+    padding: 0 15px;
+}
+nav ul li a:hover{
+    color:rgba(13, 16, 219, 0.863);
+    
+}
+
+nav .img {
+    position: absolute;
+    top: 20px;
+    right: 200px;
+    font-size: 10px;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 50%;
+    z-index: -1;
+}
